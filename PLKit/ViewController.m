@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //项目开始 向着目标出发
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
