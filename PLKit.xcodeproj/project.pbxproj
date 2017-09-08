@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		9C0C5C361C0FF1CD00D815FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C351C0FF1CD00D815FB /* main.m */; };
 		9C0C5C391C0FF1CD00D815FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C381C0FF1CD00D815FB /* AppDelegate.m */; };
-		9C0C5C3C1C0FF1CD00D815FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C3B1C0FF1CD00D815FB /* ViewController.m */; };
 		9C0C5C3F1C0FF1CD00D815FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C5C3D1C0FF1CD00D815FB /* Main.storyboard */; };
 		9C0C5C411C0FF1CD00D815FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C5C401C0FF1CD00D815FB /* Assets.xcassets */; };
 		9C0C5C441C0FF1CD00D815FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C5C421C0FF1CD00D815FB /* LaunchScreen.storyboard */; };
 		9C0C5C4F1C0FF1CD00D815FB /* PLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C4E1C0FF1CD00D815FB /* PLKitTests.m */; };
 		9C0C5C5A1C0FF1CD00D815FB /* PLKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C591C0FF1CD00D815FB /* PLKitUITests.m */; };
+		9C7829841F62CE0C00F292BF /* ViewController的副本 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7829791F62CE0C00F292BF /* ViewController的副本 3.m */; };
+		9C7829851F62CE0C00F292BF /* ViewController的副本 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C78297C1F62CE0C00F292BF /* ViewController的副本 2.m */; };
+		9C7829861F62CE0C00F292BF /* ViewController的副本.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C78297E1F62CE0C00F292BF /* ViewController的副本.m */; };
+		9C7829871F62CE0C00F292BF /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7829811F62CE0C00F292BF /* SnapViewController.m */; };
+		9C7829881F62CE0C00F292BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7829831F62CE0C00F292BF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		9C0C5C351C0FF1CD00D815FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C0C5C371C0FF1CD00D815FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C0C5C381C0FF1CD00D815FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C0C5C3A1C0FF1CD00D815FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C0C5C3B1C0FF1CD00D815FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C0C5C3E1C0FF1CD00D815FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C0C5C401C0FF1CD00D815FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0C5C431C0FF1CD00D815FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		9C0C5C551C0FF1CD00D815FB /* PLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0C5C591C0FF1CD00D815FB /* PLKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLKitUITests.m; sourceTree = "<group>"; };
 		9C0C5C5B1C0FF1CD00D815FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7829781F62CE0C00F292BF /* ViewController的副本 3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController的副本 3.h"; sourceTree = "<group>"; };
+		9C7829791F62CE0C00F292BF /* ViewController的副本 3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController的副本 3.m"; sourceTree = "<group>"; };
+		9C78297B1F62CE0C00F292BF /* ViewController的副本 2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController的副本 2.h"; sourceTree = "<group>"; };
+		9C78297C1F62CE0C00F292BF /* ViewController的副本 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController的副本 2.m"; sourceTree = "<group>"; };
+		9C78297D1F62CE0C00F292BF /* ViewController的副本.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController的副本.h"; sourceTree = "<group>"; };
+		9C78297E1F62CE0C00F292BF /* ViewController的副本.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController的副本.m"; sourceTree = "<group>"; };
+		9C7829801F62CE0C00F292BF /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		9C7829811F62CE0C00F292BF /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
+		9C7829821F62CE0C00F292BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C7829831F62CE0C00F292BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,17 @@
 			children = (
 				9C0C5C371C0FF1CD00D815FB /* AppDelegate.h */,
 				9C0C5C381C0FF1CD00D815FB /* AppDelegate.m */,
-				9C0C5C3A1C0FF1CD00D815FB /* ViewController.h */,
-				9C0C5C3B1C0FF1CD00D815FB /* ViewController.m */,
+				9C78296F1F62CE0C00F292BF /* 引导页 */,
+				9C7829701F62CE0C00F292BF /* BannerView */,
+				9C7829711F62CE0C00F292BF /* TagListView */,
+				9C7829721F62CE0C00F292BF /* 自定义导航栏 */,
+				9C7829731F62CE0C00F292BF /* 自定义不规则tabbar */,
+				9C7829741F62CE0C00F292BF /* 调用第三方地图 */,
+				9C7829751F62CE0C00F292BF /* TableView占位图 */,
+				9C7829761F62CE0C00F292BF /* 选择器组件 */,
+				9C7829771F62CE0C00F292BF /* 手势解锁 */,
+				9C78297A1F62CE0C00F292BF /* 随机图片验证码 */,
+				9C78297F1F62CE0C00F292BF /* UIScrollView子类截屏 */,
 				9C0C5C3D1C0FF1CD00D815FB /* Main.storyboard */,
 				9C0C5C401C0FF1CD00D815FB /* Assets.xcassets */,
 				9C0C5C421C0FF1CD00D815FB /* LaunchScreen.storyboard */,
@@ -138,6 +159,93 @@
 				9C0C5C5B1C0FF1CD00D815FB /* Info.plist */,
 			);
 			path = PLKitUITests;
+			sourceTree = "<group>";
+		};
+		9C78296F1F62CE0C00F292BF /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		9C7829701F62CE0C00F292BF /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		9C7829711F62CE0C00F292BF /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TagListView;
+			sourceTree = "<group>";
+		};
+		9C7829721F62CE0C00F292BF /* 自定义导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自定义导航栏";
+			sourceTree = "<group>";
+		};
+		9C7829731F62CE0C00F292BF /* 自定义不规则tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自定义不规则tabbar";
+			sourceTree = "<group>";
+		};
+		9C7829741F62CE0C00F292BF /* 调用第三方地图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "调用第三方地图";
+			sourceTree = "<group>";
+		};
+		9C7829751F62CE0C00F292BF /* TableView占位图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TableView占位图";
+			sourceTree = "<group>";
+		};
+		9C7829761F62CE0C00F292BF /* 选择器组件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "选择器组件";
+			sourceTree = "<group>";
+		};
+		9C7829771F62CE0C00F292BF /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				9C7829781F62CE0C00F292BF /* ViewController的副本 3.h */,
+				9C7829791F62CE0C00F292BF /* ViewController的副本 3.m */,
+			);
+			path = "手势解锁";
+			sourceTree = "<group>";
+		};
+		9C78297A1F62CE0C00F292BF /* 随机图片验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				9C78297B1F62CE0C00F292BF /* ViewController的副本 2.h */,
+				9C78297C1F62CE0C00F292BF /* ViewController的副本 2.m */,
+				9C78297D1F62CE0C00F292BF /* ViewController的副本.h */,
+				9C78297E1F62CE0C00F292BF /* ViewController的副本.m */,
+			);
+			path = "随机图片验证码";
+			sourceTree = "<group>";
+		};
+		9C78297F1F62CE0C00F292BF /* UIScrollView子类截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				9C7829801F62CE0C00F292BF /* SnapViewController.h */,
+				9C7829811F62CE0C00F292BF /* SnapViewController.m */,
+				9C7829821F62CE0C00F292BF /* ViewController.h */,
+				9C7829831F62CE0C00F292BF /* ViewController.m */,
+			);
+			path = "UIScrollView子类截屏";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +378,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C0C5C3C1C0FF1CD00D815FB /* ViewController.m in Sources */,
+				9C7829881F62CE0C00F292BF /* ViewController.m in Sources */,
+				9C7829851F62CE0C00F292BF /* ViewController的副本 2.m in Sources */,
 				9C0C5C391C0FF1CD00D815FB /* AppDelegate.m in Sources */,
+				9C7829841F62CE0C00F292BF /* ViewController的副本 3.m in Sources */,
 				9C0C5C361C0FF1CD00D815FB /* main.m in Sources */,
+				9C7829871F62CE0C00F292BF /* SnapViewController.m in Sources */,
+				9C7829861F62CE0C00F292BF /* ViewController的副本.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +608,7 @@
 				9C0C5C601C0FF1CD00D815FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C0C5C611C0FF1CD00D815FB /* Build configuration list for PBXNativeTarget "PLKitTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +617,7 @@
 				9C0C5C631C0FF1CD00D815FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C0C5C641C0FF1CD00D815FB /* Build configuration list for PBXNativeTarget "PLKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +626,7 @@
 				9C0C5C661C0FF1CD00D815FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
