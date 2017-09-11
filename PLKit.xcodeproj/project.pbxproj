@@ -14,9 +14,9 @@
 		9C0C5C441C0FF1CD00D815FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C5C421C0FF1CD00D815FB /* LaunchScreen.storyboard */; };
 		9C0C5C4F1C0FF1CD00D815FB /* PLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C4E1C0FF1CD00D815FB /* PLKitTests.m */; };
 		9C0C5C5A1C0FF1CD00D815FB /* PLKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C5C591C0FF1CD00D815FB /* PLKitUITests.m */; };
-		9C7829841F62CE0C00F292BF /* ViewController的副本 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7829791F62CE0C00F292BF /* ViewController的副本 3.m */; };
-		9C7829851F62CE0C00F292BF /* ViewController的副本 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C78297C1F62CE0C00F292BF /* ViewController的副本 2.m */; };
-		9C7829861F62CE0C00F292BF /* ViewController的副本.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C78297E1F62CE0C00F292BF /* ViewController的副本.m */; };
+		9C22FDAB1F6621FD000F8CFC /* PLVerifiCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22FDAA1F6621FD000F8CFC /* PLVerifiCodeController.m */; };
+		9C22FDAE1F662541000F8CFC /* PLVerifiCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22FDAD1F662541000F8CFC /* PLVerifiCodeView.m */; };
+		9C29CAA31F66C7BA00BC5A21 /* 屏幕快照 2017-09-11 21.31.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C29CAA21F66C7BA00BC5A21 /* 屏幕快照 2017-09-11 21.31.13.png */; };
 		9C7829871F62CE0C00F292BF /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7829811F62CE0C00F292BF /* SnapViewController.m */; };
 		9C7829881F62CE0C00F292BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7829831F62CE0C00F292BF /* ViewController.m */; };
 /* End PBXBuildFile section */
@@ -53,12 +53,11 @@
 		9C0C5C551C0FF1CD00D815FB /* PLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0C5C591C0FF1CD00D815FB /* PLKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLKitUITests.m; sourceTree = "<group>"; };
 		9C0C5C5B1C0FF1CD00D815FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C7829781F62CE0C00F292BF /* ViewController的副本 3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController的副本 3.h"; sourceTree = "<group>"; };
-		9C7829791F62CE0C00F292BF /* ViewController的副本 3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController的副本 3.m"; sourceTree = "<group>"; };
-		9C78297B1F62CE0C00F292BF /* ViewController的副本 2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController的副本 2.h"; sourceTree = "<group>"; };
-		9C78297C1F62CE0C00F292BF /* ViewController的副本 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController的副本 2.m"; sourceTree = "<group>"; };
-		9C78297D1F62CE0C00F292BF /* ViewController的副本.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController的副本.h"; sourceTree = "<group>"; };
-		9C78297E1F62CE0C00F292BF /* ViewController的副本.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController的副本.m"; sourceTree = "<group>"; };
+		9C22FDA91F6621FD000F8CFC /* PLVerifiCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVerifiCodeController.h; sourceTree = "<group>"; };
+		9C22FDAA1F6621FD000F8CFC /* PLVerifiCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVerifiCodeController.m; sourceTree = "<group>"; };
+		9C22FDAC1F662541000F8CFC /* PLVerifiCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVerifiCodeView.h; sourceTree = "<group>"; };
+		9C22FDAD1F662541000F8CFC /* PLVerifiCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVerifiCodeView.m; sourceTree = "<group>"; };
+		9C29CAA21F66C7BA00BC5A21 /* 屏幕快照 2017-09-11 21.31.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-09-11 21.31.13.png"; sourceTree = "<group>"; };
 		9C7829801F62CE0C00F292BF /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
 		9C7829811F62CE0C00F292BF /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
 		9C7829821F62CE0C00F292BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -220,8 +219,6 @@
 		9C7829771F62CE0C00F292BF /* 手势解锁 */ = {
 			isa = PBXGroup;
 			children = (
-				9C7829781F62CE0C00F292BF /* ViewController的副本 3.h */,
-				9C7829791F62CE0C00F292BF /* ViewController的副本 3.m */,
 			);
 			path = "手势解锁";
 			sourceTree = "<group>";
@@ -229,10 +226,11 @@
 		9C78297A1F62CE0C00F292BF /* 随机图片验证码 */ = {
 			isa = PBXGroup;
 			children = (
-				9C78297B1F62CE0C00F292BF /* ViewController的副本 2.h */,
-				9C78297C1F62CE0C00F292BF /* ViewController的副本 2.m */,
-				9C78297D1F62CE0C00F292BF /* ViewController的副本.h */,
-				9C78297E1F62CE0C00F292BF /* ViewController的副本.m */,
+				9C29CAA21F66C7BA00BC5A21 /* 屏幕快照 2017-09-11 21.31.13.png */,
+				9C22FDA91F6621FD000F8CFC /* PLVerifiCodeController.h */,
+				9C22FDAA1F6621FD000F8CFC /* PLVerifiCodeController.m */,
+				9C22FDAC1F662541000F8CFC /* PLVerifiCodeView.h */,
+				9C22FDAD1F662541000F8CFC /* PLVerifiCodeView.m */,
 			);
 			path = "随机图片验证码";
 			sourceTree = "<group>";
@@ -310,7 +308,7 @@
 		9C0C5C291C0FF1CD00D815FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = BigRoc;
 				TargetAttributes = {
 					9C0C5C301C0FF1CD00D815FB = {
@@ -354,6 +352,7 @@
 				9C0C5C441C0FF1CD00D815FB /* LaunchScreen.storyboard in Resources */,
 				9C0C5C411C0FF1CD00D815FB /* Assets.xcassets in Resources */,
 				9C0C5C3F1C0FF1CD00D815FB /* Main.storyboard in Resources */,
+				9C29CAA31F66C7BA00BC5A21 /* 屏幕快照 2017-09-11 21.31.13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,13 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C22FDAE1F662541000F8CFC /* PLVerifiCodeView.m in Sources */,
 				9C7829881F62CE0C00F292BF /* ViewController.m in Sources */,
-				9C7829851F62CE0C00F292BF /* ViewController的副本 2.m in Sources */,
+				9C22FDAB1F6621FD000F8CFC /* PLVerifiCodeController.m in Sources */,
 				9C0C5C391C0FF1CD00D815FB /* AppDelegate.m in Sources */,
-				9C7829841F62CE0C00F292BF /* ViewController的副本 3.m in Sources */,
 				9C0C5C361C0FF1CD00D815FB /* main.m in Sources */,
 				9C7829871F62CE0C00F292BF /* SnapViewController.m in Sources */,
-				9C7829861F62CE0C00F292BF /* ViewController的副本.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,8 +450,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -495,8 +495,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

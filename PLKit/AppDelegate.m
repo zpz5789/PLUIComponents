@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "PLVerifiCodeController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    PLVerifiCodeController *vc = [[PLVerifiCodeController alloc] init];
+    self.window.rootViewController = vc;
+    
     // Override point for customization after application launch.
     return YES;
 }
