@@ -17,15 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    PLVerifiCodeView *verView = [[PLVerifiCodeView alloc] initWithFrame:CGRectMake(100, 100, 100, 30)];
+    PLVerifiCodeView *verView = [[PLVerifiCodeView alloc] initWithFrame:CGRectMake(100, 100, 80, 30)];
 //    verView.verifiCodes = @[
 //                            @"1354",
 //                            @"abcd",
 //                            @"xxdg",
 //                            @"gsds",
 //                            @"1589",
-//                            @"xxx",
-//                            @"燃"
+//                            @"xxxxxxds",
+//                            @"燃s"
 //                            ];
 //    UIColor *color = [UIColor redColor];
 ////    verView.textColorRandom = YES;
@@ -35,9 +35,64 @@
 //    verView.verifiCodeText = @"acdb";
     [self.view addSubview:verView];
 
+    NSDictionary *dict = @{
+                           @"k2" : @"ssds",
+                           @"K2" : @"sdfsf",
+                           @"K1":@"ss",
+                           @"a": @"aa",
+                           @"b": @"aa",
+                           @"c": @"aa",
+                           @"胜多负少":@"哈哈"
+    };
     
+    NSString *arr =  [self formatUrlStringWithDictionary:dict urlEncode:YES keyToLower:YES];
+    NSLog(@"%@",arr);
+    
+    NSString *test           = @"test";
+    NSString *testUp         = [test uppercaseString];    //大写
+    NSString *testUpFirst    = [test capitalizedString];  //开头大写，其余小写
+    
+    NSString *TEACHER           =@"TEACHER";
+    NSString *TEACHERLower      = [TEACHER lowercaseString];    //小写
+    NSString *TEACHERUpFirst    = [TEACHER capitalizedString];  //开头大写，其余小写
+
     // Do any additional setup after loading the view.
 }
+
+- (NSString *)formatUrlStringWithDictionary:(NSDictionary <NSString *, NSString*> *)dictionary urlEncode:(BOOL)encode
+                                keyToLower:(BOOL)toLower
+{
+    NSMutableString *formatUrl = [NSMutableString string];
+    NSArray *allKeys = [dictionary allKeys];
+//    NSArray *allSorts = [dictionary allValues];
+    // 对所有传入参数按照字段名的 ASCII 码从小到大排序（字典序）
+    allKeys = [allKeys sortedArrayUsingComparator:^NSComparisonResult(NSString *  _Nonnull obj1, NSString *  _Nonnull obj2) {
+        return - [obj2 compare:obj1];
+    }];
+    
+    //拼接成字符串
+    for (NSString *key in allKeys) {
+        NSString *value = [dictionary objectForKey:key];
+        NSString *tempKey;
+        if (toLower) {
+            tempKey = [key lowercaseString];
+        } else {
+            tempKey = key;
+        }
+        [formatUrl appendString:tempKey];
+        [formatUrl appendString:@"="];
+        if (encode) {
+           value = [value stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        }
+        [formatUrl appendString:value];
+        if ([allKeys indexOfObject:key] != allKeys.count - 1) {
+            [formatUrl appendString:@"&"];
+        }
+    }
+    // 构造URL 键值对的格式
+    return formatUrl;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

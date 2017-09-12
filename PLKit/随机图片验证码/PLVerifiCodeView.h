@@ -30,6 +30,7 @@
 @property (nonatomic, assign) BOOL verifiCodeColorRandom;
 
 
+
 /// 验证码文本
 @property (nonatomic, copy) NSString *verifiCodeText;
 //  提示验证码文本
@@ -40,7 +41,8 @@
 @property (nonatomic, strong) UIColor *verifiCodeColor;
 /// 验证码底纹宽度
 @property (nonatomic, assign) CGFloat bottomShadingWidth;
-
+/// 固定大小
+@property (nonatomic, assign) CGSize fixedSize;
 @property (nonatomic, weak) id <PLVerifiCodeViewDelegate> delegate;
 @end
 

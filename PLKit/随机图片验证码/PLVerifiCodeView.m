@@ -18,7 +18,8 @@
 
 @property (nonatomic, assign) NSInteger verifiCodeLenth;
 
-@property (nonatomic, assign) CGRect originRect;
+@property (nonatomic, assign) CGSize originSize;
+
 @end
 
 @implementation PLVerifiCodeView
@@ -60,7 +61,6 @@
     self.verifiCodeColor = [UIColor darkGrayColor];
     self.bottomShadingWidth = 2.f;
     
-    self.originRect = self.frame;
     self.verifiCodeLenth = 4;
 
     [self addSubview:self.bgView];
@@ -69,14 +69,22 @@
 
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapOnClick)];
     [self addGestureRecognizer:tapGesture];
+    
 
 }
 
 - (void)layoutSubviews
 {
     
-    self.frame = self.originRect;
-    
+    //记录原始frame size
+    if (!CGSizeEqualToSize(self.originSize, CGSizeZero)) {
+        self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.originSize.width, self.originSize.height);
+    } else {
+        if (!CGSizeEqualToSize(self.frame.size, CGSizeZero) && CGSizeEqualToSize(self.originSize, CGSizeZero)) {
+            self.originSize = self.frame.size;
+        }
+    }
+
     CGFloat elementMaxWidth = 0;
     CGFloat elementMaxHeight = 0;
     for (int i = 0; i < self.currentVerificode.length; i ++) {
@@ -88,22 +96,28 @@
     }
     
     //宽度判断
-    if (self.bounds.size.width - 8 < elementMaxWidth * self.currentVerificode.length) {
+    if (self.bounds.size.width - 5 < elementMaxWidth * self.currentVerificode.length) {
         //宽度小于文字宽度情况
         CGRect tempFrame = self.frame;
-        tempFrame.size.width = elementMaxWidth * self.currentVerificode.length + 8;
+        tempFrame.size.width = elementMaxWidth * self.currentVerificode.length + 5;
         self.frame = tempFrame;
     }
     
     //高度判断
-    if (self.bounds.size.height - 5 < elementMaxHeight) {
+    if (self.bounds.size.height - 3 < elementMaxHeight) {
         CGRect frame = self.frame;
-        frame.size = CGSizeMake(self.frame.size.width, elementMaxHeight + 5);
+        frame.size = CGSizeMake(self.frame.size.width, elementMaxHeight + 3);
         self.frame = frame;
     }
 
     self.bgView.frame = self.bounds;
     [super layoutSubviews];
+}
+
+- (void)updateConstraints
+{
+    [self changeVerifiCode];
+    [super updateConstraints];
 }
 
 
@@ -216,7 +230,7 @@
         [path addLineToPoint:CGPointMake(ptX, ptY)];
         
         CAShapeLayer *layer = [CAShapeLayer layer];
-        layer.strokeColor = [[self getRandomColorWithAlpha:0.2] CGColor];//layer的边框色
+        layer.strokeColor = [[self getRandomColorWithAlpha:0.1] CGColor];//layer的边框色
         layer.lineWidth = self.bottomShadingWidth;
         layer.strokeEnd = 1;
         layer.fillColor = [UIColor clearColor].CGColor;
@@ -268,7 +282,7 @@
 #pragma mark - setter
 - (void)setVerifiCodeText:(NSString *)verifiCodeText
 {
-    if (verifiCodeText.length) {
+    if (!verifiCodeText.length) {
         return;
     }
     _verifiCodeText = verifiCodeText;
